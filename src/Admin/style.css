@@ -1,0 +1,41 @@
+.jss101 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.jss104 {
+    margin: 0px 20px 20px;
+    border-radius: 5px;
+}
+
+.jss102 {
+    width: 210px;
+    border: 2px solid #dcdde1;
+    height: 310px;
+    margin: 7px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.jss103 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.zoom {
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
